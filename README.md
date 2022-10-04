@@ -17,7 +17,7 @@ Tendermint是用于在许多机器上安全、一致地复制应用程序的软�
 
 ## Tendermint组成
 Tendermint consists of two chief technical components: a blockchain consensus engine and a generic application interface.  
-Tendermint由两个主要技术组件组成:区块链共识引擎和通用应用程序接口。  
+Tendermint由两个主要技术组件组成: 区块链共识引擎和通用应用程序接口。  
 * **Tendermint Core**  
 确保在每台机器上以相同的顺序记录相同的事务。
 * **Application BlockChain Interface (ABCI)**  
