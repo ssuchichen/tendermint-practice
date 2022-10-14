@@ -22,10 +22,10 @@ Tendermint由两个主要技术组件组成: 区块链共识引擎和通用应�
 允许用任何编程语言处理事务。
 
 ## Tendermint的作用
-构建需要状态复制的应用，如区块链、分布式存储等。
+构建需要状态复制的应用，如区块链等。
 
 ## ABCI
-Tendermint Core(共识引擎)通过满足ABCI的套接字协议与应用程序通信（应用程序实现了ABCI的接口）。
+Tendermint Core(共识引擎)通过满足ABCI协议与应用程序通信（应用程序实现了ABCI的接口）。
 ### 假如用Tendermint实现区块链的功能
 Tendermint Core需要做:  
 * 要在节点间传播区块和交易
