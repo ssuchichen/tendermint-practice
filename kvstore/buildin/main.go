@@ -25,6 +25,7 @@ var configFile string
 func init() {
 	flag.StringVar(&configFile, "config", "/home/cdd/.tendermint/config/config.toml", "Path to config.toml")
 }
+
 func main() {
 	db, err := badger.Open(badger.DefaultOptions("/home/cdd/data/buildin/kvstore"))
 	if err != nil {
