@@ -2,7 +2,6 @@ package types
 
 import (
 	"bytes"
-	"fmt"
 	"github.com/dgraph-io/badger"
 	tdabcitypes "github.com/tendermint/tendermint/abci/types"
 )
@@ -23,7 +22,6 @@ func (app *KVStoreApp) SetOption(req tdabcitypes.RequestSetOption) tdabcitypes.R
 }
 
 func (app *KVStoreApp) Info(req tdabcitypes.RequestInfo) tdabcitypes.ResponseInfo {
-	fmt.Println(">> Info")
 	return tdabcitypes.ResponseInfo{}
 }
 
