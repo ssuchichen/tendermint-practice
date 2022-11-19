@@ -1,4 +1,4 @@
-# Tendermint Practice
+# Tendermint实践
 
 ## 视频教程
 * Bilibili
