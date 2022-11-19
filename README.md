@@ -1,5 +1,13 @@
 # Tendermint Practice
 
+## 视频教程
+* Bilibili
+  * [01-tendermint介绍](https://www.bilibili.com/video/BV1KV4y157PV/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
+  * [02-tendermint以builtin方式实现KVStore](https://www.bilibili.com/video/BV1ve411V7eE/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
+* YouTube
+  * [01-tendermint介绍](https://www.youtube.com/watch?v=WBDORFVvXLg&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=1)
+  * [02-tendermint以builtin方式实现KVStore App](https://www.youtube.com/watch?v=CnooQcWoGO4&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=2)
+
 ## 编译
 ```
 git clone git@github.com:ssuchichen/tendermint.git
