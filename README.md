@@ -6,9 +6,9 @@
   * [02-Tendermint以builtin方式实现KVStore App](https://www.bilibili.com/video/BV1ve411V7eE/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
   * [03-Tendermint以external方式实现KVStore App](https://www.bilibili.com/video/BV1SM411r7ZF/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
 * **YouTube**
-  * [01-Tendermint介绍](https://www.youtube.com/watch?v=WBDORFVvXLg&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=1)
-  * [02-Tendermint以builtin方式实现KVStore App](https://www.youtube.com/watch?v=CnooQcWoGO4&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=2)
-  * [03-Tendermint以external方式实现KVStore App](https://www.youtube.com/watch?v=5scRD2XWU1o&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=3)
+  * [01-Tendermint介绍](https://www.youtube.com/watch?v=IR9Lp0q4VAM&list=PL9aoThVN5PLlNNmBfXU_K2RAE6bO2xOz5&index=1)
+  * [02-Tendermint以builtin方式实现KVStore App](https://www.youtube.com/watch?v=IWXnO6Z3kOE&list=PL9aoThVN5PLlNNmBfXU_K2RAE6bO2xOz5&index=2)
+  * [03-Tendermint以external方式实现KVStore App](https://www.youtube.com/watch?v=VYOT3unzehk&list=PL9aoThVN5PLlNNmBfXU_K2RAE6bO2xOz5&index=3)
 
 ## 编译
 ### 编译Tendermint
