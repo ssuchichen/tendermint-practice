@@ -8,7 +8,7 @@
 * **YouTube**
   * [01-Tendermint介绍](https://www.youtube.com/watch?v=WBDORFVvXLg&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=1)
   * [02-Tendermint以builtin方式实现KVStore App](https://www.youtube.com/watch?v=CnooQcWoGO4&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=2)
-  * [03-Tendermint以external方式实现KVStore App](https://www.youtube.com/watch?v=5scRD2XWU1o&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=4)
+  * [03-Tendermint以external方式实现KVStore App](https://www.youtube.com/watch?v=5scRD2XWU1o&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=3)
 
 ## 编译
 ### 编译Tendermint
