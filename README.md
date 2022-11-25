@@ -3,12 +3,12 @@
 ## 视频教程
 * **Bilibili**
   * [01-Tendermint介绍](https://www.bilibili.com/video/BV1KV4y157PV/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
-  * [02-Tendermint以builtin方式实现KVStore](https://www.bilibili.com/video/BV1ve411V7eE/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
-  * [03-Tendermint以external方式实现KVStore App]()
+  * [02-Tendermint以builtin方式实现KVStore App](https://www.bilibili.com/video/BV1ve411V7eE/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
+  * [03-Tendermint以external方式实现KVStore App](https://www.bilibili.com/video/BV1SM411r7ZF/?spm_id_from=333.999.0.0&vd_source=79484a601afa1e7d36a00ef527669e7e)
 * **YouTube**
   * [01-Tendermint介绍](https://www.youtube.com/watch?v=WBDORFVvXLg&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=1)
   * [02-Tendermint以builtin方式实现KVStore App](https://www.youtube.com/watch?v=CnooQcWoGO4&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=2)
-  * [03-Tendermint以external方式实现KVStore App]()
+  * [03-Tendermint以external方式实现KVStore App](https://www.youtube.com/watch?v=fTJfKkgrKnY&list=PL9aoThVN5PLk2S8EhjZVqTFBvvRB8C2ib&index=3)
 
 ## 编译
 ### 编译Tendermint
@@ -24,12 +24,19 @@ make build # build目录下会生成可执行文件tendermint
 编译后的可执行程序，在`build`目录下。
 
 ## 运行
-### Tendermint
+### 初始化
 ```
-tendermint init
-tendermint node
+./build/tendermint init
 ```
-### App
+### 启动
+* **Builtin**
+```
+./build/kvstore-builtin
+```
+* **External**
+```
+./build/tendermint node
+```
 ```
 ./build/kvstore-external
 ```
