@@ -27,27 +27,31 @@ func init() {
 }
 
 func main() {
-	db, err := badger.Open(badger.DefaultOptions("/home/cdd/data/buildin/kvstore"))
+	db, err := badger.Open(badger.DefaultOptions("/home/cdd/data/kvstore"))
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "failed to open badger DB: %v", err)
 		os.Exit(1)
 	}
 	defer db.Close()
 
+	// 创建App对象
 	app := types.NewKVStoreApp(db)
 
+	// 创建结点
 	node, err := newTendermint(app, configFile)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "failed to new tendermint: %v", err)
 		os.Exit(2)
 	}
 
+	// 启动结点
 	node.Start()
 	defer func() {
 		node.Stop()
 		node.Wait()
 	}()
 
+	// 处理信号，退出
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
 	<-c

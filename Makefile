@@ -1,6 +1,10 @@
-buildin:
-	go build -o ./build/kvstore-buildin ./kvstore/buildin/main.go
+builtin:
+	go build -o ./build/kvstore-builtin ./kvstore/builtin/main.go
 
-all: buildin
+external:
+	go build -o ./build/kvstore-external ./kvstore/external/main.go
 
-.PHONY: buildin
+all: builtin external
+
+.PHONY: buildin separate
+
