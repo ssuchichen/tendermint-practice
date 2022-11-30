@@ -11,7 +11,7 @@
   * [03-Tendermint以external方式实现KVStore App](https://www.youtube.com/watch?v=VYOT3unzehk&list=PL9aoThVN5PLlNNmBfXU_K2RAE6bO2xOz5&index=3)
 
 ## 架构
-![avatar](./docs/imgs/architecture.png)
+![avatar](./docs/imgs/kvstoreapp.png)
 
 ## 编译
 ### 编译Tendermint
